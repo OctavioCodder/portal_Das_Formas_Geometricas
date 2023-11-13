@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Inter:wght@300&family=Kanit:ital,wght@0,400;1,300&family=Lilita+One&family=Nunito:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&family=Press+Start+2P&family=Sarala:wght@400;700&display=swap');    
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: rgb(31, 33, 41);
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 60px;
+    color:cadetblue ;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+
+span{
+    color: #27374D;
+}
+
+i{
+    font-size: 35px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:#D8C4B6;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+input{
+    width: 280px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    transition: 0.6s ease-in-out;
+}
+
+input::placeholder{
+    color: #000;
+}
+
+input:hover{
+    background-color: #1e2348;
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+
+button:hover{
+    background-color: #1e2348;
+}
+
+
+
+.imagens img{
+    height: 200px;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.7s ease-in-out;
+}
+
+.imagens img:hover{
+    transform: scale(1.1);
+}
+
+.buttom a{
+    width: 150px;
+    display: inline-block;
+    margin: 0 90px;
+    margin-top: 50px;
+    padding: 12px 0;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    position: relative;
+    border-radius: 70px;
+    transition: 0.7s ease-in-out;
+    text-align: center;
+}
+
+.buttom a:hover{
+    background-color: #AD8E70;
+}
+
+.formulario{
+    color: aliceblue;
+    margin-left: 30% ;
+    margin-top: 5%;
+    font-size: 25px;
+    background-color:steelblue;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.CampodeResposta{
+    font-size: 20px;
+    text-align: center;
+}
+
+.botao{
+    border-radius: 20px;
+}
+
+.resultadocalculo{
+    font-size: xx-large;
+    color: #fff;
+}
+
+#raio{
+    text-align: center;
+    margin-left:37% ;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#raioMenor{
+    text-align: center;
+    margin-left:540px ;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000;
+}
+
+#raioMaior{
+    text-align: center;
+    margin-left:540px ;
+    font-size: 20px;
+}
+
+#altura{
+    text-align: center;
+    margin-left:540px ;
+    font-size: 20px;
+}
+
+#btt{
+    text-align: center;
+    margin-left:587px ;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#largura{
+    text-align: center;
+    margin-left:540px ;
+    font-size: 20px;
+}
+
+#lado{
+    text-align: center;
+    margin-left:540px ;
+    font-size: 20px;
+}
+
+#ladoA{
+    text-align: center;
+    margin-left:540px ;
+    font-size: 20px;
+}
+
+#ladoB{
+    text-align: center;
+    margin-left:540px ;
+    font-size: 20px;
+}
+
+#lados{
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 610px;
+    font-size: 20px;
+    transition: 0.6s ease-in-out;
+}
+
+#politext{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 60px;
+    color:#fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#angulo{
+    text-align: center;
+    margin-left:540px ;
+    font-size: 20px;
+}
